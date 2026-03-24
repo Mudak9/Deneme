@@ -7,6 +7,7 @@ int fibonacci(int n) {
 }
 
 int main() {
+    setlocale(LC_ALL,"turkish");
     int n;
     cout << "Kacinci Fibonacci elemanini istiyorsunuz? "; cin >> n;
     cout << "Sonuc: " << fibonacci(n) << endl;
